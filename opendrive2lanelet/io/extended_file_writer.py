@@ -13,7 +13,8 @@ import os
 import xml.etree.ElementTree as et
 from lxml import etree, objectify
 
-from commonroad.common.file_writer import CommonRoadFileWriter, ctx
+from commonroad.common.file_writer import CommonRoadFileWriter
+# from commonroad.common.file_writer import CommonRoadFileWriter, ctx
 
 # TODO: use lxml in commonroad file_writer
 
@@ -26,7 +27,7 @@ __email__ = "commonroad-i06@in.tum.de"
 __status__ = "Released"
 
 
-ctx.prec = 10
+# ctx.prec = 10
 
 
 class ExtendedCommonRoadFileWriter(CommonRoadFileWriter):
