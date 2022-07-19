@@ -11,6 +11,7 @@ pip3 install -i https://pypi.douban.com/simple/ -r requirements.txt
 ```
 3. run gui
 ```
+export PYTHONPATH=$(pwd)
 python3 opendrive2lanelet/io/gui.py
 ```
 Download example files from: http://opendrive.org/download.html.
