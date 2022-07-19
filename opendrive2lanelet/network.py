@@ -183,7 +183,8 @@ class Network:
         """
 
         scenario = Scenario(
-            dt=dt, benchmark_id=benchmark_id if benchmark_id is not None else "none"
+            dt=dt
+            # dt=dt, benchmark_id=benchmark_id if benchmark_id is not None else "none"
         )
 
         scenario.add_objects(
